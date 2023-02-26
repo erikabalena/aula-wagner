@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      function escreverMensagem() {
+        var mensagem = "Msg do span.";
+        document.getElementById("mensagem-span").innerHTML = mensagem;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Minha pág</h1>
+    <p>Clique no botão abaixo para exibir a mensagem:</p>
+    <button onclick="escreverMensagem()">Mostrar mensagem</button>
+    <p>A mensagem será mostrada:</p>
+    <span id="mensagem-span"></span>
+  </body>
+</html>
